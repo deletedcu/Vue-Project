@@ -29,75 +29,58 @@ export default {
   state: Object.assign({}, defaults),
 
   mutations: {
-    updateSidebar(state, options) {
+    updateSidebar (state, options) {
       state.sidebar = Object.assign({}, defaults.sidebar, options)
     },
 
-    updateTitle(state, title) {
+    updateTitle (state, title) {
       state.title = title
     },
 
-    updateLayout(state, layout) {
+    updateLayout (state, layout) {
       state.layout = layout
     },
 
-    updateDialog(state, options) {
+    updateDialog (state, options) {
       state.dialog = Object.assign({}, defaults.dialog, options)
     },
 
-    updateSnackbar(state, options) {
+    updateSnackbar (state, options) {
       state.snackbar = Object.assign({}, defaults.snackbar, options)
     },
 
-    error(state, options) {
+    error (state, options) {
       state.error = Object.assign({}, defaults.error, options)
     },
 
-    clear(state) {
+    clear (state) {
       state = Object.assign({}, defaults)
     }
   },
 
   actions: {
-    clear({
-      state,
-      commit,
-      rootState,
-      dispatch
-    }) {
+    clear ({ state, commit, rootState, dispatch }) {
       commit('clear')
-      dispatch('auth/clear', {}, {
-        root: true
-      })
+      dispatch('auth/clear', {}, { root: true })
     },
 
-    updateSidebar({
-      commit
-    }, options) {
+    updateSidebar ({ commit }, options) {
       commit('updateSidebar', options)
     },
 
-    updateTitle({
-      commit
-    }, title) {
+    updateTitle ({ commit }, title) {
       commit('updateTitle', title)
     },
 
-    updateLayout({
-      commit
-    }, layout) {
+    updateLayout ({ commit }, layout) {
       commit('updateLayout', layout)
     },
 
-    updateDialog({
-      commit
-    }, options) {
+    updateDialog ({ commit }, options) {
       commit('updateDialog', options)
     },
 
-    updateSnackbar({
-      commit
-    }, options) {
+    updateSnackbar ({ commit }, options) {
       commit('updateSnackbar', options)
     }
   }

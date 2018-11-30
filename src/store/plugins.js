@@ -10,9 +10,7 @@ if (localStorage.getItem(constants.STORAGE_KEY)) {
 // LocalStorage plugin.
 const localStoragePlugin = store => {
   store.subscribe((mutation, state) => {
-    const syncedData = {
-      auth: state.auth
-    }
+    const syncedData = { auth: state.auth }
 
     localStorage.setItem(constants.STORAGE_KEY, JSON.stringify(syncedData))
 
@@ -22,6 +20,4 @@ const localStoragePlugin = store => {
   })
 }
 
-export {
-  localStoragePlugin
-}
+export { localStoragePlugin }
