@@ -2,7 +2,6 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import routes from './routes'
 import store from '@/store'
-import { router } from '.';
 
 Vue.use(Router)
 
@@ -15,7 +14,7 @@ Vue.use(Router)
  * @return {void}
  */
 function guardRoute (to, from, next) {
-  // Work-around to get to the Vuex store (as of Vue 2.0)
+  // work-around to get to the Vuex store (as of Vue 2.0)
   const auth = router.app.$options.store.state.auth
 
   if (!auth.isLoggedIn) {
@@ -41,7 +40,7 @@ const router = new Router({
       store.dispatch('common/updateTitle', route.title)
       store.dispatch('common/updateLayout', route.layout)
 
-      // Auth navigation guard
+      // Auth navigation guard.
       if (!route.isPublic) return guardRoute(to, from, next)
 
       next()
