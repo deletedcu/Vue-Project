@@ -28,7 +28,8 @@
  * to seeing just a blank white page and the loader being offscreen somewhere).
  */
 export default {
-  name: "Loading",
+  name: 'Loading',
+
   // Non-reactive data accessible via this.$options.[...].
   loaderOpacity: 0.6,
   transitionAdded: false,
