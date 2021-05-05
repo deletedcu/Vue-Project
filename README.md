@@ -35,3 +35,16 @@ npm test
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+## 🌱 Technologies and Frameworks
+<p>
+    <!-- Vue.js -->
+    <img src="https://img.shields.io/badge/Vue.js-4fc08d?flat=plastic&logo=vue.js&logoColor=white" height="32" alt="Vue.js" />
+    &nbsp;
+    <!-- TypeScript -->
+    <img src="https://img.shields.io/badge/TypeScript-3178c6?flat=plastic&logo=typescript&logoColor=white" height="32" alt="TypeScript" />
+    &nbsp;
+    <!-- NPM -->
+    <img src="https://img.shields.io/badge/npm-cb3837?flat=plastic&logo=npm&logoColor=white" height="32" alt="npm" />
+    &nbsp;
+</p>
