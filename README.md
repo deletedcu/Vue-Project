@@ -50,4 +50,13 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
     <!-- Node.js -->
     <img src="https://img.shields.io/badge/Node.js-339933?flat=plastic&logo=node.js&logoColor=white" height="32" alt="Node.js" />
     &nbsp;
+    <!-- HTML5 -->
+    <img src="https://img.shields.io/badge/Html5-339933?flat=plastic&logo=html5&logoColor=white" height="32" alt="HTML5" />
+    &nbsp;
+    <!-- CSS3 -->
+    <img src="https://img.shields.io/badge/CSS3-339933?flat=plastic&logo=css3&logoColor=white" height="32" alt="CSS3" />
+    &nbsp;
+    <!-- JavaScript -->
+    <img src="https://img.shields.io/badge/JavaScript-339933?flat=plastic&logo=javascript&logoColor=white" height="32" alt="JavaScript" />
+    &nbsp;
 </p>
