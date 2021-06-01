@@ -39,7 +39,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 ## 🌱 Technologies and Frameworks
 <p>
     <!-- Vue.js -->
-    <img src="https://img.shields.io/badge/Vue.js-4fc08d?flat=plastic&logo=vue.js&logoColor=white" height="32" alt="Vue.js" />
+    <img src="https://img.shields.io/badge/Vue.js-4fc08d?flat=plastic&logo=vue-dot-js&logoColor=white" height="32" alt="Vue.js" />
     &nbsp;
     <!-- TypeScript -->
     <img src="https://img.shields.io/badge/TypeScript-3178c6?flat=plastic&logo=typescript&logoColor=white" height="32" alt="TypeScript" />
@@ -48,7 +48,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
     <img src="https://img.shields.io/badge/npm-cb3837?flat=plastic&logo=npm&logoColor=white" height="32" alt="npm" />
     &nbsp;
     <!-- Node.js -->
-    <img src="https://img.shields.io/badge/Node.js-339933?flat=plastic&logo=node.js&logoColor=white" height="32" alt="Node.js" />
+    <img src="https://img.shields.io/badge/Node.js-339933?flat=plastic&logo=node-dot-js&logoColor=white" height="32" alt="Node.js" />
     &nbsp;
     <!-- HTML5 -->
     <img src="https://img.shields.io/badge/Html5-e34f26?flat=plastic&logo=html5&logoColor=white" height="32" alt="HTML5" />
